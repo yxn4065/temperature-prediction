@@ -18,9 +18,9 @@ ps: requirements.txt中包仅供参考,不需要全部安装,个人电脑未区�
 
 最终结果如下图:
 
-![image-20240522193300103](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522193300103.png)
+![image-20240522193300103](./img/image-20240522193300103.png)
 
-![image-20240522202041358](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522202041358.png)
+![image-20240522202041358](./img/image-20240522202041358.png)
 
 **技术路线**
 
@@ -38,7 +38,7 @@ ps:使用的数据集仅包含一个特征(标签), 一个标签(平均温度). 
 
 网站: http://www.tianqihoubao.com/
 
-![image-20240522200023825](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522200023825.png)
+![image-20240522200023825](./img/image-20240522200023825.png)
 
 使用爬虫进行爬取,代码见"\temperature_forecast\dataset\全国天气信息爬取.py"
 
@@ -46,17 +46,17 @@ ps:使用的数据集仅包含一个特征(标签), 一个标签(平均温度). 
 
 指定地区获取请更改下文内容:
 
-![image-20240522210644922](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522210644922.png)
+![image-20240522210644922](./img/image-20240522210644922.png)
 
 该网站支持全国各地共2384个区县级地区历史气温查询
 
-![image-20240522210506266](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522210506266.png)
+![image-20240522210506266](./img/image-20240522210506266.png)
 
-![image-20240522210616667](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522210616667.png)
+![image-20240522210616667](./img/image-20240522210616667.png)
 
 运行该文件可以获取某一地区某一段时间区间是数据集.
 
-![image-20240522220414878](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522220414878.png)
+![image-20240522220414878](./img/image-20240522220414878.png)
 
 ## 文件说明
 
@@ -78,17 +78,17 @@ GUI界面:
 
 模型文件:
 
-+ ![image-20240522201731528](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522201731528.png)
++ ![image-20240522201731528](./img/image-20240522201731528.png)
 
 
 
 ## 模型评估
 
-![image-20240522202159982](C:\Users\yxn\AppData\Roaming\Typora\typora-user-images\image-20240522202159982.png)
+![image-20240522202159982](./img/image-20240522202159982.png)
 
 ## GUI界面逻辑
 
-![img](http://www.kdocs.cn/api/v3/office/copy/Zm8ySUdpV3UrUUZJd2FzSUNINURJWUpwV0xtN2NNK2ZkQ2lyc21QVXE5cGFMUWlKNHU0MmUzNDJYRnkwcVlUUkFLaWpwOWJoR3cyM1VSU2tESXZXbElteGJXVnByUUdtVXBNM0UzVjVzYjcrMFZlZy9ld0c1aEVCek9UT0ZQS0U5K3dmWllIaytRYnpRdXlyNlRrMGhzZUQyOXlZcC9ZLy9jamFMaXJxMytGUHZ0djNzdkZrbDVFNHFhaGFlWE5kTWF2SXhtS09ua0NMTHlrYkJjK1VJZjkwWXE4OGt3RmViWjBVMmM4SnJKYXNQVXhBYjlaYnJ6UzNxWE5pcm81Z2JXcEErWGJRRkJ3PQ==/attach/object/d1b02caf6e108dd25963b368615509afaa4a4416?)
+![img](./img/image-20240522200023889.jpg)
 
 
 
